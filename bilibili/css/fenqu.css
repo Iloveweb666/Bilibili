@@ -1,0 +1,334 @@
+.fenqu{
+    width: 100%;
+    height: 458px;
+    margin-bottom: 40px;
+}
+
+.fenqu-tuijian{
+    width: 1175px;
+    height: 458px;
+    float: left;
+}
+
+.fenqu-title{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 16px;
+}
+
+.fenqu-name{
+    width: 102px;
+    height: 100%;
+    font-size: 25px;
+    float: left;
+}
+
+.fenqu-name>span{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.fenqu-name>span span{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.fenqu-change{
+    width: 142px;
+    height: 22px;
+    margin-top: 7px;
+    float: right;
+}
+
+.change-button1{
+    width: 77px;
+    height: 100%;
+}
+
+.change-button1 div{
+    display: inline-block;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.change-button1:hover div{
+    transition-delay: 0.3s;
+    transform: rotate(360deg);
+}
+
+.change-button2{
+    width: 60px;
+    height: 22px;
+}
+
+.change-button2 div{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius:1px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    transform:rotate(45deg);
+    margin-left: 2px; 
+}
+
+.fenqu-content{
+    width: 100%;
+    height: 404px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fenqu-viedo{
+    width: 226px;
+    height: 190px;
+    border-radius: 3px;
+}
+
+.fenqu-viedo:nth-child(n+6){
+    margin-top: 24px;
+}
+
+.viedo-picture{
+    width: 100%;
+    height: 116px;
+    background-color: rgb(137, 198, 238);
+    position: relative;
+    border-radius: 3px;
+}
+
+.viedo-picture>span{
+    display: inline-block;
+    font-size: 40px;
+    transform: translate(50%,50%);
+}
+
+.fenqu-viedo-info{
+    width: 210px;
+    height: 16px;
+    padding: 10px 8px;
+    position: absolute;
+    bottom:0px;
+}
+
+.fenqu-viedo-info div{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.fenqu-viedo-info div span{
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.fenqu-viedo-info>span{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.viedo-title{
+    display: inline-block;
+    width: 212px;
+    height: 40px;
+    margin: 10px 0 8px;
+    padding-right:12px ;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+.viedo-up{
+    display:block;
+    font-size: 12px;
+    padding-left: 5px;
+    color:rgb(155, 155, 155);
+}
+
+.fenqu-viedo a:hover{
+    transition: all 0.2s ease;
+    color:rgb(156, 198, 238);
+}
+
+.fenqu-paihang{
+    width: 320px;
+    height: 456px;
+    margin-left: 25px;
+    float: left;
+}
+
+.paihang-title{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 16px;
+}
+
+.paihang-title span{
+    display: inline-block;
+    width: 60px;
+    height: 28px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.paihang-title button{
+    float: right;
+    display: inline-table;
+    margin-top:10px;
+}
+
+.paihang{
+    width: 100%;
+    height: 405px;
+}
+
+.top1{
+    width: 100%;
+    height: 64px;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.number-paihang{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(94, 163, 219);
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 3px;
+}
+
+.number-paihang2{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    color:rgb(155, 155, 155);
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 3px;
+}
+
+.preview{
+    width: 290px;
+    height: 64px;
+    float:right;
+}
+
+.pic{
+    width: 112px;
+    height: 64px;
+    float: left;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    
+}
+
+.pic a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 188, 245);
+}
+
+.later{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 8px;
+    right:10px;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.later i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.pic:hover>.later{
+    transition: all 0.7s ease;
+    opacity: 0.7;
+}
+
+.beforeLater{
+    width: 56px;
+    height: 20px;
+    border-radius: 4px;
+    padding-left: 6px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:36px;
+    left:12px;
+    opacity: 0;
+    color: #fff;
+    font-size: 12px;
+    display: none;
+    transform: scale(0.7);
+}
+
+.later:hover+.beforeLater{
+    transition: all 1s ease;
+}
+
+.txt{
+    width: 166px;
+    height: 100%;
+    float: right;
+}
+
+.txt a{
+    display: block;
+    width: 100%;
+    height: 45px;
+}
+
+.txt p{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.txt p:hover{
+    transition: all 0.2s ease;
+    color:rgb(156, 198, 238);
+}
+
+.txt span{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.top2{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.top2 a{
+    display:block;
+    width: 290px;
+    height: 100%;
+    float: right;
+    font-size: 14px;
+}
+
+.top2 a:hover{
+    transition: all 0.2s ease;
+    color:rgb(156, 198, 238);
+}

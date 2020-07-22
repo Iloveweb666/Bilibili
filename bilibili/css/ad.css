@@ -1,0 +1,112 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url(../img/bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.contant{
+    width:750px;
+    height: 2000px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.contant-select{
+    width: 670px;
+    height: 72px;
+    padding: 16px 40px;
+    position: relative;
+}
+
+.contant-select span{
+    color: red;
+    position: absolute;
+    left:30px;
+    top: 25px;
+}
+
+.contant-select .title{
+    margin: 5px 0;
+}
+
+.contant-select .xuanxiangbox{
+    display: inline-block;
+    margin-top: 10px;
+    width: 520px;
+    height: 24px;
+}
+
+.contant-phone{
+    width: 670px;
+    height: 107px;
+    padding: 16px 40px;
+    position: relative;
+}
+
+.contant-phone span{
+    color: red;
+    position: absolute;
+    left:30px;
+    top: 20px;
+}
+
+.xuanxiang{
+    display: inline-block;
+    width: 170px;
+    height: 24px;
+}
+
+.phone{
+    border: none;
+    width: 650px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.btn{
+    width: 750px;
+    height: 45px;
+    padding: 16px 0;
+
+}
+.btn-in{
+    width: 678px;
+    height: 45px;
+    margin: 0 38px;
+    border-radius:31px ;
+    text-align: center;
+    line-height: 45px;
+    background-color: rgb(38, 116, 233);
+    cursor: pointer;
+}
+
+.message{
+    width: 714px;
+    height: 230px;
+    background-color: rgb(247,248,252);
+    margin:13px 17px;
+}
+
+.message .message-title{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.message-inner{
+    width: 330px;
+    height: 182px;
+    margin: 0 auto;
+}
+
+.message-inner-line{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
